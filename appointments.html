@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/appointments.css">
+<script src="js/sticky_nav.js"></script>
+<script src="js/appointments.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+<div id="navbar">
+  <a href="index.html">Home</a>
+  <a href="barbers.html">Barbers</a>
+  <a href="pricing.html">Pricing</a>
+  <a class="active" href="appointments.html">Appointments</a>
+</div>
+
+<div class="mapimage">
+</div>
+
+<div class="appointments-form-wrapper">
+  <form action="contact.php" method="post" class="appointments-form">
+    <div class="inner-form">
+      First name: <input type="text" name="firstname" value="First name">
+      <br>
+      Last name: <input type="text" name="lastname" value="Last name">
+      <br>
+      Barber: <select name="barber">
+        <option value="any">Any</option>
+        <option value="barber1">Barber 1</option>
+        <option value="barber2">Barber 2</option>
+        <option value="barber3">Barber 3</option>
+        <option value="barber4">Barber 4</option>
+      </select>
+      <br>
+      Date: <input type="date" name="barber-appointment">
+      <br>
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </div>
+  </form>
+</div>
+
+<footer>
+  <h1>Footer</h1>
+</footer>
+</body>
+</html>

@@ -1,0 +1,26 @@
+.mapimage {
+  background-image: url("../images/map.png");
+  background-size: cover;
+  width: 100vw;
+  height: 50vh;
+}
+
+html {
+	background: #95c5ff;
+}
+
+form {
+	width: 50vw;
+	margin: 0 auto;
+	padding: 100px 0;
+	background: #aaffd4;
+}
+
+.inner-form {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.appointments-form-wrapper {
+	padding: 100px;
+}
