@@ -47,6 +47,14 @@ body {
   padding: 16px;
 }
 
+.inner-content {
+  color: rgb(12, 100, 192);
+  letter-spacing: 0.25em;
+  font-size: 22px;
+  font-family: din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+  text-align: center;
+}
+
 .sticky {
   position: fixed;
   top: 0;
