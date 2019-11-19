@@ -3,5 +3,5 @@
   $fp = fopen('data.txt', 'a');
   fwrite($fp, $data);
   fclose($fp);
-  header("Location: appointments.html");
+  header("Location: confirmation.html");
 ?>
