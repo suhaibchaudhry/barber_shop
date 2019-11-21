@@ -5,13 +5,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.headerimage {
-  background-image: url("../images/barber_header.jpg");
-  background-size: cover;
-  width: 100vw;
-  height: 80vh;
-}
-
 .header {
   background-color: #f1f1f1;
   padding: 30px;
@@ -95,4 +88,9 @@ footer h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.left-foot, .center-foot, .right-foot {
+  float: left;
+  width: 33%;
 }
