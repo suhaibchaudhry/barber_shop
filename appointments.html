@@ -14,6 +14,7 @@
   <a href="barbers.html">Barbers</a>
   <a href="pricing.html">Pricing</a>
   <a class="active" href="appointments.html">Appointments</a>
+  <div class="logo">The Barbershop</div>
 </div>
 
 <div class="mapimage">
@@ -22,11 +23,11 @@
 <div class="appointments-form-wrapper">
   <form action="contact.php" method="post" class="appointments-form">
     <div class="inner-form">
-      First Name: <input type="text" name="firstname" value="First name">
+      First Name: <input type="text" name="firstname" value="First name" required>
       <br>
-      Last Name: <input type="text" name="lastname" value="Last name">
+      Last Name: <input type="text" name="lastname" value="Last name" required>
       <br>
-      Barber: <select name="barber">
+      Barber: <select name="barber" required>
         <option value="any">Any</option>
         <option value="barber1">Barber 1</option>
         <option value="barber2">Barber 2</option>
@@ -34,13 +35,13 @@
         <option value="barber4">Barber 4</option>
       </select>
       <br>
-      Package: <select name="package">
+      Package: <select name="package" required>
         <option value="bronze">Bronze</option>
         <option value="gold">Gold</option>
         <option value="platinum">Platinum</option>
       </select>
       <br>
-      Date: <input type="date" name="barber-appointment">
+      Date: <input type="date" name="barber-appointment" required>
       <br>
       <input type="submit" value="Submit">
       <input type="reset" value="Reset">

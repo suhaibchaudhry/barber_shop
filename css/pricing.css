@@ -381,4 +381,11 @@
 	 margin: 0;
 	 box-sizing: border-box;
 }
- 
+
+footer h1 {
+	font-size: 1.5em !important;
+}
+
+footer h3 {
+	font-size: 1em !important;
+}
