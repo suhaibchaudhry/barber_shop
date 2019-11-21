@@ -1,5 +1,6 @@
 .inner {
   text-align: center;
+  padding: 125px;
 }
 .wrapper {
   /* The height needs to be set to a fixed value for the effect to work.
