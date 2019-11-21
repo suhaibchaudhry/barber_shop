@@ -49,21 +49,21 @@
 
 /* The styling for the static div. */
 .static {
-  background-image: url('../images/bg_img3.jpg');
+  background-image: url('../images/bg_img3.png');
   background-size: cover;
 }
 
 /* Sets the actual background images to adorable kitties. This part is crucial. */
 .bg1::after {
-  background-image: url('../images/bg_img1.jpg');
+  background-image: url('../images/bg_img1.png');
   background-size: cover;
 }
 
 .bg2::after {
-  background-image: url('../images/bg_img2.jpg');
+  background-image: url('../images/bg_img2.png');
   background-size: cover;
 }
 
 .barbers footer {
-  margin-top: 70px !important;
+  margin-top: 120px !important;
 }
