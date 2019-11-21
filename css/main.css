@@ -43,6 +43,10 @@ body {
   color: white;
 }
 
+.inner-footer {
+  margin-top: 20px;
+}
+
 .content {
   padding: 16px;
 }

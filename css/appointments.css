@@ -20,6 +20,26 @@ form {
 .inner-form {
 	margin: 0 auto;
 	text-align: center;
+  font-size: 0.75em;
+  color: #333;
+}
+
+.submit, .reset {
+  width: 10vw;
+  font-size: 1em;
+  color: #333;
+  height: 5vh;
+}
+
+input, select {
+  height: 20px;
+  font-size: 15px;
+  color: #8c8c8c;
+  margin: 6px;
+}
+
+select {
+  height: 25px;
 }
 
 .appointments-form-wrapper {
